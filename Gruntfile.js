@@ -27,8 +27,23 @@ module.exports = function (grunt) {
     // Project settings
     yeoman: appConfig,
 
+    // Compiles main.scss file into main.css
+    sass: {                              // Task
+      dist: {                            // Target
+        options: {                       // Target options
+          style: 'expanded'
+        },
+        files: {                         // Dictionary of files
+          'app/styles/main.css': 'app/styles/main.scss'
+        }
+      }
+    },
     // Watches files for changes and runs tasks based on the changed files
     watch: {
+      css: {
+        files: '**/*.scss',
+        tasks: ['sass']
+      },
       bower: {
         files: ['bower.json'],
         tasks: ['wiredep']
@@ -389,6 +404,7 @@ module.exports = function (grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-sass');
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
