@@ -2,9 +2,14 @@
 // Main
 // ===============
 
+// Libraries
 @import "../components/sass-bootstrap/lib/bootstrap";
 
+// Basics and Common
 @import "basic/base";
 @import "basic/variables";
+@import "common/mixins";
 
+// Pages
 @import "pages/header";
+@import "pages/introduction";

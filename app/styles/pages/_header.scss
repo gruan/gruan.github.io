@@ -2,3 +2,14 @@
 // HEADER
 // ===============
 
+@media(min-width: 980px) {
+  body {
+    padding-top: 60px;
+  }
+}
+
+#page-header {
+  .nav {
+    max-width: 775px;
+  }
+}
