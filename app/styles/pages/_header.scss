@@ -3,4 +3,21 @@
 // ===============
 #page-header{
   margin-bottom: 60px;
+
+  a {
+    @include color-transition;
+    color: $gray;
+  }
+
+  a:hover {
+    color: $reddish;
+  }
+
+  .navbar-fixed-top {
+    background-color: $blackish;
+  }
+
+
+
+
 }
