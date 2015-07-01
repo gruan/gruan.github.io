@@ -5,19 +5,20 @@
   margin-bottom: 60px;
 
   a {
-    @include color-transition;
-    color: $gray;
+    outline: 0;
+    transition: color .8s;
   }
 
-  a:hover {
+  a:hover,
+  a:focus,
+  a:active, {
     color: $reddish;
   }
 
   .navbar-fixed-top {
     background-color: $blackish;
+    color: $gray;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
   }
-
-
-
-
 }

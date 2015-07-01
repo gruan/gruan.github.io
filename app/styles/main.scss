@@ -4,10 +4,12 @@
 
 // Libraries
 @import "../components/sass-bootstrap/lib/bootstrap";
+@import "../components/fontawesome/scss/font-awesome";
 
 // Basics and Common
 @import "basic/variables";
 @import "basic/base";
+@import "basic/fonts";
 @import "common/mixins";
 
 // Pages
