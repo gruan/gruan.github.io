@@ -31,6 +31,7 @@ module.exports = function(config) {
       'app/components/angular-route/angular-route.js',
       'app/components/angular-sanitize/angular-sanitize.js',
       'app/components/angular-touch/angular-touch.js',
+      'app/components/bootstrap/dist/js/bootstrap.js',
       'app/components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",
