@@ -8,9 +8,10 @@
 
 // Basics and Common
 @import "basic/variables";
+@import "basic/mixins";
 @import "basic/base";
 @import "basic/fonts";
-@import "common/mixins";
+
 
 // Pages
 @import "pages/header";

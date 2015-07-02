@@ -2,9 +2,27 @@
 // HEADER
 // ===============
 #page-header{
-  margin-bottom: 60px;
+  // Navbar General
+  .navbar-right a,
+  .navbar-brand {
+    padding: 20px 15px;
+  }
 
+  .navbar-toggle {
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  .navbar-fixed-top {
+    background-color: $c-dark;
+    border: 0;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  // Link-Text
   a {
+    color: $c-lightest;
     outline: 0;
     transition: color .8s;
   }
@@ -12,13 +30,28 @@
   a:hover,
   a:focus,
   a:active, {
-    color: $reddish;
+    color: $c-light;
   }
 
-  .navbar-fixed-top {
-    background-color: $blackish;
-    color: $gray;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+  // Toggle
+  .navbar-toggle {
+    border-color: $c-dark;
+  }
+
+  .navbar-toggle:hover,
+  .navbar-toggle:active,
+  .navbar-toggle:focus, {
+    background-color: $c-dark;
+    outline: none;
+  }
+
+  .icon-bar {
+    background-color: $c-lightest;
+  }
+
+  // Collapse
+  .navbar-collapse {
+    border-top: 1px solid $c-darkest;
+    box-shadow: $c-dark-lighter 0 1px 0 0 inset;
   }
 }
