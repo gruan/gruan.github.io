@@ -7,16 +7,18 @@
 html, body {
   border: 0;
   box-sizing: border-box;
+  color: $c-lightest;
   margin: 0;
   padding: 0;
 }
 
 p {
-    font-size: 20px;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
 p.small {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {

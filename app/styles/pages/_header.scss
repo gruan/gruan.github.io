@@ -33,6 +33,10 @@
     color: $c-light;
   }
 
+  .navbar-brand {
+    text-transform: uppercase;
+  }
+
   // Toggle
   .navbar-toggle {
     border-color: $c-dark;

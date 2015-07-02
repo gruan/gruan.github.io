@@ -3,8 +3,38 @@
 // ===============
 
 #introduction {
-  .col-lg-12 {
+  .container {
     background-color: $c-light;
-    padding-top: 60px;
+    padding: 110px 15px 50px 15px;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .glyphicon-king {
+    color: $c-lightest;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 50px;
+    min-height: 50px;
+
+  }
+
+  .king-border {
+    align: center;
+    border-top: 6px solid $c-lightest;
+    max-width: 250px;
+  }
+
+  .skills {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2em;
   }
 }
