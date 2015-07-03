@@ -5,7 +5,18 @@
 #introduction {
   .container {
     background-color: $c-light;
-    padding: 110px 15px 50px 15px;
+    padding: 160px 15px 100px 15px;
+  }
+
+  .intro-img {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+  }
+
+  .img-center {
+    margin: 0 auto;
   }
 
   .intro-text {
@@ -18,23 +29,15 @@
     text-transform: uppercase;
   }
 
-  .glyphicon-king {
-    color: $c-lightest;
-    display: inline-block;
-    margin: 0 5px;
-    min-width: 50px;
-    min-height: 50px;
-
-  }
-
   .king-border {
-    align: center;
-    border-top: 6px solid $c-lightest;
-    max-width: 250px;
+    background-color: white;
+    height: 30px;
+    margin: 0 auto;
+    width: 30px;
   }
 
   .skills {
-    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
   }
 }
