@@ -1,0 +1,21 @@
+// ===============
+// FOOTER
+// ===============
+footer {
+  .footer-below {
+    background-color: $c-dark;
+    margin: 0;
+    width: 100%;
+
+    p {
+      font-size: 15px;
+      margin: 0;
+      padding: 15px 0;
+    }
+
+    .copyright {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+}

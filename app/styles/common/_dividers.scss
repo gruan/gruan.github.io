@@ -22,3 +22,24 @@
   position: relative;
   top: -.5em;
 }
+
+.divider-diamond-dark {
+  background-color: $c-dark;
+  height: 6px;
+  margin: 20px auto;
+  max-width: 250px;
+}
+
+.divider-diamond-dark::after {
+  background-color: $c-lightest;
+  color: $c-dark;
+  content: '\f219';
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-size: 2em;
+  font-weight: normal;
+  padding: 0 .1em;
+  position: relative;
+  top: -.5em;
+}
