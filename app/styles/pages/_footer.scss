@@ -2,6 +2,11 @@
 // FOOTER
 // ===============
 footer {
+  .container {
+    background-color: $c-dark;
+    width: 100%;
+  }
+
   p {
     font-size: 15px;
     margin: 0;

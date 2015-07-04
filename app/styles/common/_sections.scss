@@ -1,20 +1,30 @@
 // ===============
 // SECTIONS
 // ===============
-div.container.container-dark {
-  background-color: $c-dark;
-  margin: 100px 0;
+div.container.container-light {
+  background-color: $c-lightest;
+  padding: 100px 0;
   width: 100%;
 }
 
-div.container.container-light {
-  background-color: $c-lightest;
-  margin: 100px 0;
+div.container.container-normal {
+  background-color: $c-light;
+  padding: 100px 0;
+  width: 100%;
+}
+
+div.container.container-dark {
+  background-color: $c-dark;
+  padding: 100px 0;
   width: 100%;
 }
 
 div.light {
   background-color: $c-lightest;
+}
+
+div.normal {
+  background-color: $c-light;
 }
 
 div.dark {
