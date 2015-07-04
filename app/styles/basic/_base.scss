@@ -43,3 +43,12 @@ section .container {
   margin: 0;
   width: 100%;
 }
+
+// Classes
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.small-bottom-margin {
+  margin-bottom: 10px;
+}

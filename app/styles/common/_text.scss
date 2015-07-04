@@ -2,8 +2,19 @@
 // TEXT
 // ===============
 
+// Colors
 h2.title-dark {
   color: $c-dark;
+  font-size: 3em;
+}
+
+h2.title-gray {
+  color: $c-gray;
+  font-size: 3em;
+}
+
+h2.title-normal {
+  color: $c-light;
   font-size: 3em;
 }
 
@@ -16,6 +27,14 @@ h2.title-light {
   color: $c-lightest;
 }
 
+.text-gray {
+  color: $c-gray;
+}
+
+.text-normal {
+  color: $c-light;
+}
+
 .text-dark {
   color: $c-dark;
 }
@@ -25,7 +44,30 @@ h2.title-light {
   font-size: 2em;
 }
 
+.icon-gray {
+  color: $c-gray;
+  font-size: 2em;
+}
+
+.icon-normal {
+  color: $c-light;
+  font-size: 2em;
+}
+
 .icon-dark {
   color: $c-dark;
   font-size: 2em;
+}
+
+// Style
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: 900;
+}
+
+.text-italicize {
+  font-style: italic;
 }
