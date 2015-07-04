@@ -3,30 +3,30 @@
 // ===============
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../../components/fontawesome/fonts/fontawesome-webfont.eot?v=4.3.0");
-  src: url("../../components/fontawesome/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../../components/fontawesome/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../../components/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../../components/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../../components/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  src: url("/app/styles/fonts/fontawesome/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("/app/styles/fonts/fontawesome/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("/app/styles/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("/app/styles/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("/app/styles/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("/app/styles/fonts/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../../components/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.eot");
-  src: url("../../components/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../components/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.woff") format("woff"), url("../../components/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.ttf") format("truetype"), url("../../components/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url("/app/styles/fonts/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.eot");
+  src: url("/app/styles/fonts/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/app/styles/fonts/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.woff") format("woff"), url("/app/styles/fonts/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.ttf") format("truetype"), url("/app/styles/fonts/bootstrap/fonts/glyphicons-halflings/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
 @font-face {
   font-family: Lato;
-  src: url(../../components/lato-semibold/lato-semibold.woff);
+  src: url(/app/styles/fonts/lato-semibold/lato-semibold.woff);
 }
 
 @font-face {
   font-family: Montserrat;
-  src: url(../../components/montserrat/Montserrat-Regular.otf);
+  src: url(/app/styles/fonts/montserrat/Montserrat-Regular.otf);
 }
 
 @font-face {
   font-family: Montserrat;
   font-weight: 700;
-  src: url(../../components/montserrat/Montserrat-Bold.otf);
+  src: url(/app/styles/fonts/montserrat/Montserrat-Bold.otf);
 }
