@@ -4,5 +4,6 @@ node_modules
 bower_components
 
 app/styles/main.css.map
+app/styles/main.css
 
 app/components/*
