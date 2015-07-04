@@ -1,0 +1,22 @@
+// ===============
+// SECTIONS
+// ===============
+div.container.container-dark {
+  background-color: $c-dark;
+  margin: 100px 0;
+  width: 100%;
+}
+
+div.container.container-light {
+  background-color: $c-lightest;
+  margin: 100px 0;
+  width: 100%;
+}
+
+div.light {
+  background-color: $c-lightest;
+}
+
+div.dark {
+  background-color: $c-dark;
+}

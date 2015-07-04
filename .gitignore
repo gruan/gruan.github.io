@@ -4,11 +4,6 @@ dist
 .sass-cache
 bower_components
 
-app/components
 app/styles/main.css.map
 
-!app/components/bootstrap/
-!app/components/sass-bootstrap/
-!app/components/fontawesome/
-!app/components/lato/
-!app/components/montserrat/
+app/components/*

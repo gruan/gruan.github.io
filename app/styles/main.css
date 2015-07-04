@@ -8755,7 +8755,7 @@ section .container {
 }
 
 .divider-diamond-light::after {
-  background-color: #944C40;
+  background-color: #9fde3e;
   color: #fff;
   content: '\f219';
   display: inline-block;
@@ -8769,7 +8769,7 @@ section .container {
 }
 
 .divider-diamond-dark {
-  background-color: #152137;
+  background-color: #1a2945;
   height: 6px;
   margin: 20px auto;
   max-width: 250px;
@@ -8777,7 +8777,7 @@ section .container {
 
 .divider-diamond-dark::after {
   background-color: #fff;
-  color: #152137;
+  color: #1a2945;
   content: '\f219';
   display: inline-block;
   font-family: FontAwesome;
@@ -8790,7 +8790,7 @@ section .container {
 }
 
 h2.title-dark {
-  color: #152137;
+  color: #1a2945;
   font-size: 3em;
 }
 
@@ -8804,11 +8804,21 @@ h2.title-light {
 }
 
 .text-dark {
-  color: #152137;
+  color: #1a2945;
+}
+
+.icon-light {
+  color: #fff;
+  font-size: 2em;
+}
+
+.icon-dark {
+  color: #1a2945;
+  font-size: 2em;
 }
 
 div.container.container-dark {
-  background-color: #152137;
+  background-color: #1a2945;
   margin: 100px 0;
   width: 100%;
 }
@@ -8824,7 +8834,7 @@ div.light {
 }
 
 div.dark {
-  background-color: #152137;
+  background-color: #1a2945;
 }
 
 #page-header .navbar-right a,
@@ -8836,7 +8846,7 @@ div.dark {
   margin-bottom: 13px;
 }
 #page-header .navbar-fixed-top {
-  background-color: #152137;
+  background-color: #1a2945;
   border: 0;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -8849,18 +8859,18 @@ div.dark {
 #page-header a:hover,
 #page-header a:focus,
 #page-header a:active {
-  color: #944C40;
+  color: #9fde3e;
 }
 #page-header .navbar-brand {
   text-transform: uppercase;
 }
 #page-header .navbar-toggle {
-  border-color: #152137;
+  border-color: #1a2945;
 }
 #page-header .navbar-toggle:hover,
 #page-header .navbar-toggle:active,
 #page-header .navbar-toggle:focus {
-  background-color: #152137;
+  background-color: #1a2945;
   outline: none;
 }
 #page-header .icon-bar {
@@ -8872,7 +8882,7 @@ div.dark {
 }
 
 #introduction .container {
-  background-color: #944C40;
+  background-color: #9fde3e;
   padding: 160px 15px 100px 15px;
 }
 #introduction .intro-img {

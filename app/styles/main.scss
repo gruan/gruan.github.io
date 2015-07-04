@@ -12,10 +12,12 @@
 @import "basic/base";
 @import "basic/fonts";
 @import "common/dividers";
-
+@import "common/text";
+@import "common/sections";
 
 // Pages
 @import "pages/header";
 @import "pages/introduction";
+@import "pages/about";
 
 @import "pages/footer";
