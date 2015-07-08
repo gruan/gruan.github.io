@@ -1,8 +1,7 @@
 (function () {
   'use strict';
 
-  angular
-    .module('personalApp')
+  angular.module('personalApp')
     .directive('grResumeEntry', resumeEntry);
 
   /**
@@ -15,42 +14,28 @@
       link: link,
       templateUrl: 'scripts/directives/grResumeEntry/grResumeEntry.html',
       scope: {
-        accomplishment: '=',
-        cityState: '=',
-        date: '=',
-        grade: '=',
-        location: '=',
-        sectionTitle: '=',
-        description: '='
+        info: '='
       },
       restrict: 'E'
     };
 
     return directive;
 
-    function link(scope, element, attrs) {
-      scope.accomplishment = accomplishment;
-      scope.cityState = cityState;
-      scope.date = date;
-      scope.grade = grade;
-      scope.location = location;
-      scope.sectionTitle = sectionTitle;
-      scope.description = description;
-
+    function link(scope) {
       scope.sectionTitleDisplayed = isSectionTitleDisplayed();
       scope.gradeDisplayed = isGradeDisplayed();
       scope.descriptionDisplayed = isDescriptionDisplayed();
 
       function isDescriptionDisplayed() {
-        return attrs.description;
+        return !!scope.info.description;
       }
 
       function isGradeDisplayed() {
-        return attrs.grade;
+        return !!scope.info.grade;
       }
 
       function isSectionTitleDisplayed() {
-        return attrs.sectionTitle;
+        return !!scope.info.sectionTitle;
       }
     }
   }

@@ -149,139 +149,106 @@
         <div class="divider-diamond-normal"></div>
       </div>
 
-      <!-- RESUME EDUCATION -->
+      <!-- Resume Education -->
       <section class="large-bottom-margin">
         <!-- U of I -->
-        <div class="small-bottom-margin">
-          <div class="row text-left">
-            <div class="col-xs-offset-2 col-xs-2">
-              <p class="small text-uppercase no-bottom-margin">Education</p>
-            </div>
-            <div class="col-xs-4">
-              <p class="small text-dark text-bold no-bottom-margin">Bachelor of Science in Computer Science</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small no-bottom-margin text-right">Expected 2018</p>
-            </div>
-          </div>
-
-          <div class="row text-left">
-            <div class="col-xs-offset-4 col-xs-4">
-              <p class="small text-italicize no-bottom-margin">University of Illinois at Urbana-Champaign</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small no-bottom-margin text-right">Urbana, IL</p>
-            </div>
-          </div>
-
-          <div class="row text-left">
-            <div class="col-xs-offset-8 col-xs-2">
-              <p class="small no-bottom-margin text-right">GPA: 4.0</p>
-            </div>
-          </div>
-        </div>
-        <!-- End U of I -->
+        <gr-resume-entry info="{
+                           sectionTitle: 'Education',
+                           accomplishment: 'Bachelor of Science in Computer Science',
+                           date: 'Expected 2018',
+                           location: 'University of Illinois at Urbana-Champaign',
+                           cityState: 'Urbana-IL',
+                           grade: 'GPA: 4.0'
+                         }">
+        </gr-resume-entry>
 
         <!-- Lycee Marguerite de Navarre-->
-        <div class="medium-bottom-margin">
-          <div class="row text-left">
-            <div class="col-xs-offset-4 col-xs-4">
-              <p class="small text-dark text-bold no-bottom-margin">French Exchange Student</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small no-bottom-margin text-right">August 2013 - June 2014</p>
-            </div>
-          </div>
-
-          <div class="row text-left">
-            <div class="col-xs-offset-4 col-xs-4">
-              <p class="small text-italicize no-bottom-margin">Lycee de Marguerite Navarre</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small text-right no-bottom-margin">Bourges, France</p>
-            </div>
-          </div>
-        </div>
-        <!-- End Lycee Marguerite de Navarre -->
+        <gr-resume-entry info="{
+                           accomplishment: 'French Exchange Student',
+                           date: 'Aug. 2013 - June 2014',
+                           location: 'Lycee Marguerite de Navarre',
+                           cityState: 'Bourges, France'
+                         }">
+        </gr-resume-entry>
 
         <!-- Uni High -->
-        <div class="small-bottom-margin">
-          <div class="row text-left">
-            <div class="col-xs-offset-4 col-xs-4">
-              <p class="small text-dark text-bold no-bottom-margin">High School Diploma</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small no-bottom-margin text-right">May 2013</p>
-            </div>
-          </div>
-
-          <div class="row text-left">
-            <div class="col-xs-offset-4 col-xs-4">
-              <p class="small text-italicize no-bottom-margin">University Laboratory High School</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small no-bottom-margin text-right">Urbana, IL</p>
-            </div>
-          </div>
-
-          <div class="row text-left">
-            <div class="col-xs-offset-8 col-xs-2">
-              <p class="small no-bottom-margin text-right">GPA: 4.0</p>
-            </div>
-          </div>
-        </div>
-        <!-- End of Uni High -->
+        <gr-resume-entry info="{
+                           accomplishment: 'High School Diploma',
+                           date: 'May 2013',
+                           location: 'University Laboratory High School',
+                           cityState: 'Urbana, IL',
+                           grade: 'GPA: 4.0'
+                         }">
+        </gr-resume-entry>
       </section>
-      <!-- END RESUME EDUCATION -->
+      <!-- End Resume Education -->
 
       <!-- Resume Experience -->
       <section class="large-bottom-margin">
         <!-- NextGear Capital -->
-        <div class="small-bottom-margin">
-          <div class="row text-left">
-            <div class="col-xs-offset-2 col-xs-2">
-              <p class="small text-uppercase no-bottom-margin">Work Experience</p>
-            </div>
-            <div class="col-xs-4">
-              <p class="small text-dark text-bold no-bottom-margin">Software Web Developer Intern</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small no-bottom-margin text-right">June 2015 - August 2015</p>
-            </div>
-          </div>
-
-          <div class="row text-left">
-            <div class="col-xs-offset-4 col-xs-4">
-              <p class="small text-italicize no-bottom-margin">NextGear Capital</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small no-bottom-margin text-right">Carmel, IN</p>
-            </div>
-          </div>
-        </div>
-        <!-- End NextGear Capital -->
+        <gr-resume-entry info="{
+                           sectionTitle: 'Experience',
+                           accomplishment: 'Software Web Developer Intern',
+                           date: 'June 2015 - Aug. 2015',
+                           location: 'NextGear Capital',
+                           cityState: 'Carmel, IN'
+                         }">
+        </gr-resume-entry>
       </section>
       <!-- End Resume Experience -->
 
       <!-- Resume Projects -->
       <section class="medium-bottom-margin">
         <!-- VandyHacks -->
-        <div class="small-bottom-margin">
-          <div class="row text-left">
-            <div class="col-xs-offset-2 col-xs-2">
-              <p class="small text-uppercase no-bottom-margin">Projects</p>
-            </div>
-            <div class="col-xs-4">
-              <p class="small text-dark text-bold no-bottom-margin">LiveTrip</p>
-            </div>
-            <div class="col-xs-2">
-              <p class="small no-bottom-margin text-right">March 2015</p>
-            </div>
-          </div>
-        </div>
-        <!-- End VandyHacks -->
+        <gr-resume-entry info="{
+                           sectionTitle: 'Projects',
+                           accomplishment: 'LiveTrip - 3rd Place Overall',
+                           date: 'Mar. 2015',
+                           location: 'VandyHacks',
+                           cityState: 'Nashville, TN'
+                         }">
+        </gr-resume-entry>
+
+        <!-- BoilerMake -->
+        <gr-resume-entry info="{
+                           accomplishment: 'ShakeSafe',
+                           date: 'Oct. 2014',
+                           location: 'BoilerMake',
+                           cityState: 'West Lafayette, IN'
+                         }">
+        </gr-resume-entry>
+
+        <!-- HackMizzou -->
+        <gr-resume-entry info="{
+                          accomplishment: 'Fractl',
+                          date: 'Oct. 2014',
+                          location: 'HackMizzou',
+                          cityState: 'Columbia, MO'
+                         }">
+        </gr-resume-entry>
+
       </section>
       <!-- End Resume Projects -->
+
+      <!-- Resume Research -->
+      <gr-resume-entry info="{
+                         sectionTitle: 'Research',
+                         accomplishment: 'Chemistry Research Intern',
+                         date: 'Sep. 2011 - Aug. 2013',
+                         location: 'Universty of Illinois at Urbana-Champaign',
+                         cityState: 'Urbana, IL'
+                       }">
+      </gr-resume-entry>
+
+      <gr-resume-entry info="{
+                         accomplishment:'Computing Science Research Intern',
+                         date: 'May 2012 - June 2012',
+                         location: 'University of Illinois at Urbana-Champaign',
+                         cityState: 'Urbana, IL'
+                       }">
+      </gr-resume-entry>
+      <!-- End Resume Research -->
+    </div>
   </section>
   <!-- End Resume Section -->
 
@@ -308,9 +275,24 @@
 <!-- jQuery -->
 <script src="components/jquery/dist/jquery.min.js"></script>
 
+<!-- Angular -->
+<script src="components/angular/angular.min.js"></script>
+<script src="components/angular-animate/angular-animate.min.js"></script>
+<script src="components/angular-cookies/angular-cookies.min.js"></script>
+<script src="components/angular-resource/angular-resource.min.js"></script>
+<script src="components/angular-route/angular-route.min.js"></script>
+<script src="components/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="components/angular-touch/angular-touch.min.js"></script>
+
 <!-- Bootstrap -->
 <script src="components/bootstrap/js/collapse.js"></script>
 <script src="components/bootstrap/js/transition.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+
+<script src="scripts/directives/grResumeEntry/grResumeEntry.js"></script>
 <!-- endbuild -->
 
 </body>
