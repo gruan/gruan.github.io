@@ -358,7 +358,10 @@ module.exports = function (grunt) {
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*'
+            'styles/fonts/bootstrap/dist/**/*',
+            'styles/fonts/fontawesome/**/*',
+            'styles/fonts/lato/**/**/*',
+            'styles/fonts/montserrat/*'
           ]
         }, {
           expand: true,
