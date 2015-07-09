@@ -359,6 +359,8 @@ module.exports = function (grunt) {
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
 
+            'images/favicons/*.ico',
+
             'styles/fonts/bootstrap/dist/**/*',
             'styles/fonts/fontawesome/**/*',
             'styles/fonts/lato/**/**/*',
