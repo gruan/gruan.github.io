@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64d4f559-db81-4489-a427-b41a8b55c02e" name="Default" comment="Modify header to support mobile.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/favicons/favicon-16x16.3a2c73ea.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/favicons/favicon-32x32.3cdfe94d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/icon.73ccab37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/intro.d767a872.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/components.265439ec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/scripts.08bab424.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/bootstrap/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/bootstrap/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/bootstrap/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/bootstrap/package.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/fontawesome/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/fontawesome/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/fontawesome/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/fontawesome/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/lato/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/lato/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/lato/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/lato/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/lato/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/Montserrat-Black.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/Montserrat-Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/Montserrat-Hairline.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/Montserrat-Light.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/Montserrat-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/SIL Open Font License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/montserrat/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/browserstack.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/css.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/customize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fonts/sass-bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.987cb194.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/main.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,8 +51,8 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4700748">
-              <caret line="363" column="39" selection-start-line="363" selection-start-column="39" selection-end-line="363" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.52618456">
+              <caret line="366" column="42" selection-start-line="366" selection-start-column="42" selection-end-line="366" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -214,6 +160,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -756,7 +734,7 @@
       <workItem from="1436222239141" duration="5502000" />
       <workItem from="1436382837701" duration="1221000" />
       <workItem from="1436384723856" duration="756000" />
-      <workItem from="1436403030866" duration="1727000" />
+      <workItem from="1436403030866" duration="1901000" />
     </task>
     <task id="LOCAL-00001" summary="Add sass compile functionality to gruntfile.">
       <created>1435115867241</created>
@@ -798,7 +776,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31660000" />
+    <option name="totallyTimeSpent" value="31834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1202,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4700748">
-          <caret line="363" column="39" selection-start-line="363" selection-start-column="39" selection-end-line="363" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.52618456">
+          <caret line="366" column="42" selection-start-line="366" selection-start-column="42" selection-end-line="366" selection-end-column="42" />
           <folding />
         </state>
       </provider>
