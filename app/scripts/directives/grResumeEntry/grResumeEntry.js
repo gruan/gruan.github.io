@@ -22,20 +22,28 @@
     return directive;
 
     function link(scope) {
+      scope.sectionTitle = scope.info.sectionTitle;
+      scope.accomplishment = scope.info.accomplishment;
+      scope.date = scope.info.date;
+      scope.location = scope.info.location;
+      scope.cityState = scope.info.cityState;
+      scope.grade = scope.info.grade;
+      scope.description = scope.info.description;
+
       scope.sectionTitleDisplayed = isSectionTitleDisplayed();
       scope.gradeDisplayed = isGradeDisplayed();
       scope.descriptionDisplayed = isDescriptionDisplayed();
 
       function isDescriptionDisplayed() {
-        return !!scope.info.description;
+        return !!scope.description;
       }
 
       function isGradeDisplayed() {
-        return !!scope.info.grade;
+        return !!scope.grade;
       }
 
       function isSectionTitleDisplayed() {
-        return !!scope.info.sectionTitle;
+        return !!scope.sectionTitle;
       }
     }
   }
