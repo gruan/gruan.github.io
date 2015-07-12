@@ -1,4 +1,5 @@
 <!--
+Possible input values for the resume entry:
 sectionTitle
 accomplishment
 date
@@ -11,37 +12,37 @@ description
 <div ng-class="{'medium-bottom-margin': !gradeDisplayed, 'small-bottom-margin': gradeDisplayed}">
   <div class="row text-left">
     <div class="col-xs-offset-2 col-xs-2" ng-if="sectionTitleDisplayed">
-      <p class="small text-uppercase no-bottom-margin">{{info.sectionTitle}}</p>
+      <p class="small text-uppercase no-bottom-margin">{{sectionTitle}}</p>
     </div>
 
     <div class="col-xs-4" ng-class="{'col-xs-offset-4': !sectionTitleDisplayed}">
-      <p class="small text-dark text-bold no-bottom-margin">{{info.accomplishment}}</p>
+      <p class="small text-dark text-bold no-bottom-margin">{{accomplishment}}</p>
     </div>
 
     <div class="col-xs-2">
-      <p class="small text-right no-bottom-margin">{{info.date}}</p>
+      <p class="small text-right no-bottom-margin">{{date}}</p>
     </div>
   </div>
 
   <div class="row text-left">
     <div class="col-xs-offset-4 col-xs-4">
-      <p class="small text-italicize no-bottom-margin">{{info.location}}</p>
+      <p class="small text-italicize no-bottom-margin">{{location}}</p>
     </div>
 
     <div class="col-xs-2">
-      <p class="small text-right no-bottom-margin">{{info.cityState}}</p>
+      <p class="small text-right no-bottom-margin">{{cityState}}</p>
     </div>
   </div>
 
   <div class="row text-left" ng-if="gradeDisplayed">
     <div class="col-xs-offset-8 col-xs-2">
-      <p class="small text-right no-bottom-margin">{{info.grade}}</p>
+      <p class="small text-right no-bottom-margin">{{grade}}</p>
     </div>
   </div>
 
-  <div class="row small-top-margin" ng-if="descriptionDisplayed">
+  <div class="row small-top-margin text-left" ng-if="descriptionDisplayed">
     <div class="col-xs-offset-4 col-xs-4">
-      <p class="text-style-light">{{info.description}}</p>
+      <p class="small text-thin no-bottom-margin">{{description}}</p>
     </div>
   </div>
 </div>
