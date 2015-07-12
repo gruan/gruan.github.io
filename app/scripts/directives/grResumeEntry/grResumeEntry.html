@@ -9,7 +9,7 @@ grade
 description
 -->
 
-<div ng-class="{'medium-bottom-margin': !gradeDisplayed, 'small-bottom-margin': gradeDisplayed}">
+<div ng-class="{'medium-bottom-margin': !gradeDisplayed || descriptionDisplayed, 'small-bottom-margin': gradeDisplayed && !descriptionDisplayed}">
   <div class="row text-left">
     <div class="col-xs-offset-2 col-xs-2" ng-if="sectionTitleDisplayed">
       <p class="small text-uppercase no-bottom-margin">{{sectionTitle}}</p>
