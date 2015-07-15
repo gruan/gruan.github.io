@@ -2,17 +2,17 @@
   'use strict';
 
   angular.module('personalApp')
-    .directive('grResumeEntry', resumeEntry);
+    .directive('grPortfolioEntry', portfolioEntry);
 
   /**
    * Directive for rendering a single entry of the Resume. Currently used in index.html
    */
 
-  function resumeEntry() {
+  function portfolioEntry() {
     var directive;
     directive = {
       link: link,
-      templateUrl: 'scripts/directives/grResumeEntry/grResumeEntry.html',
+      templateUrl: 'scripts/directives/grPortfolioEntry/grPortfolioEntry.html',
       scope: {
         info: '='
       },

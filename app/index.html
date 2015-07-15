@@ -51,7 +51,7 @@
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#resume">Resume</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -140,19 +140,19 @@
   </section>
   <!-- End About Section -->
 
-  <!-- Resume Section -->
-  <section id="resume">
+  <!-- Portfolio Section -->
+  <section id="portfolio">
     <div class="container container-normal div-normal text-center text-light">
       <div class="row">
-        <h2 class="title-light">Resume</h2>
+        <h2 class="title-light">Portfolio</h2>
 
         <div class="divider-diamond-normal"></div>
       </div>
 
-      <!-- Resume Education -->
+      <!-- Portfolio Education -->
       <section class="large-bottom-margin">
         <!-- U of I -->
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                            sectionTitle: 'Education',
                            accomplishment: 'Bachelor of Science in Computer Science',
                            date: 'Expected 2018',
@@ -162,33 +162,33 @@
                            description: 'Courses: Computer Architecture, Data Structures, Discrete Structures,
                                          Applied Linear Algebra, Calculus 1 2 3.'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
 
         <!-- Lycee Marguerite de Navarre-->
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                            accomplishment: 'French Exchange Student',
                            date: 'Aug. 2013 - June 2014',
                            location: 'Lycee Marguerite de Navarre',
                            cityState: 'Bourges, France'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
 
         <!-- Uni High -->
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                            accomplishment: 'High School Diploma',
                            date: 'May 2013',
                            location: 'University Laboratory High School',
                            cityState: 'Urbana, IL',
                            grade: 'GPA: 4.0'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
       </section>
-      <!-- End Resume Education -->
+      <!-- End Portfolio Education -->
 
-      <!-- Resume Experience -->
+      <!-- Portfolio Experience -->
       <section class="large-bottom-margin">
         <!-- NextGear Capital -->
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                            sectionTitle: 'Experience',
                            accomplishment: 'Software Web Developer Intern',
                            date: 'June 2015 - Aug. 2015',
@@ -201,14 +201,14 @@
                                          the build process for IE development and support. Tools that were used include
                                          HTML5, SCSS, Javascript, Angular, Bootstrap, Karma, Frisby, and Grunt.'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
       </section>
-      <!-- End Resume Experience -->
+      <!-- End Portfolio Experience -->
 
-      <!-- Resume Projects -->
+      <!-- Portfolio Projects -->
       <section class="large-bottom-margin">
         <!-- VandyHacks -->
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                            sectionTitle: 'Projects',
                            accomplishment: 'Live Trip - 3rd Place Overall',
                            date: 'Mar. 2015',
@@ -222,10 +222,10 @@
                                          Live Trip was built with HTML5, CSS, Javascript, Python, Flask,
                                          Wolfram-API, and Wikipedia-API.'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
 
         <!-- BoilerMake -->
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                            accomplishment: 'ShakeSafe',
                            date: 'Oct. 2014',
                            location: 'BoilerMake',
@@ -236,10 +236,10 @@
                                          with your GPS location. ShakeSafe was built with Javascript, Pebble API,
                                          Flask, and Twilio REST API.'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
 
         <!-- HackMizzou -->
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                           accomplishment: 'Fractl',
                           date: 'Oct. 2014',
                           location: 'HackMizzou',
@@ -250,14 +250,14 @@
                                         shrinking, and modifying parameters without having to access the keyboard.
                                         Fractl was built with C++, OpenGL, SFML, and Leap Motion API.'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
 
       </section>
-      <!-- End Resume Projects -->
+      <!-- End Portfolio Projects -->
 
-      <!-- Resume Research -->
+      <!-- Portfolio Research -->
       <section class="large-bottom-margin">
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                            sectionTitle: 'Research',
                            accomplishment: 'Chemistry Research Assistant',
                            date: 'Sep. 2011 - Aug. 2013',
@@ -269,9 +269,9 @@
                                          spectroscopy, and prepared columns for nano-scale particles using size
                                          extrusion chromatography.'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
 
-        <gr-resume-entry info="{
+        <gr-portfolio-entry info="{
                            accomplishment:'Computing Science Research Intern',
                            date: 'May 2012 - June 2012',
                            location: 'University of Illinois at Urbana-Champaign',
@@ -283,12 +283,12 @@
                                          papers. Researchers were then able to use the archive to map affected gene
                                          sequence to the mutated areas.'
                          }">
-        </gr-resume-entry>
+        </gr-portfolio-entry>
       </section>
-      <!-- End Resume Research -->
+      <!-- End Portfolio Research -->
     </div>
   </section>
-  <!-- End Resume Section -->
+  <!-- End Portfolio Section -->
 
   <!-- Contact Section -->
   <section id="contact">
@@ -330,7 +330,7 @@
 <!-- build:js scripts/scripts.js -->
 <script src="scripts/app.js"></script>
 
-<script src="scripts/directives/grResumeEntry/grResumeEntry.js"></script>
+<script src="scripts/directives/grPortfolioEntry/grPortfolioEntry.js"></script>
 <!-- endbuild -->
 
 </body>
