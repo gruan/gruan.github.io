@@ -1,3 +1,10 @@
 // ===============
 // PORTFOLIO
 // ===============
+
+#portfolio {
+  section:last-child,
+  gr-portfolio-entry:last-child {
+    margin-bottom: 0;
+  }
+}

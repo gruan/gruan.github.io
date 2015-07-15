@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64d4f559-db81-4489-a427-b41a8b55c02e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/favicons/favicon-16x16.3a2c73ea.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/favicons/favicon-32x32.3cdfe94d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/icon.73ccab37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/intro.d767a872.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/components.265439ec.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/directives/grResumeEntry/grResumeEntry.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/scripts.c7f21c34.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.987cb194.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/scripts/directives/grResumeEntry/grResumeEntry.html" afterPath="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/scripts/directives/grResumeEntry/grResumeEntry.js" afterPath="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/pages/_resume.scss" afterPath="$PROJECT_DIR$/app/styles/pages/_portfolio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/404.html" afterPath="$PROJECT_DIR$/dist/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/about.html" afterPath="$PROJECT_DIR$/dist/views/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/pages/_portfolio.scss" afterPath="$PROJECT_DIR$/app/styles/pages/_portfolio.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.html" afterPath="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/main.html" afterPath="$PROJECT_DIR$/dist/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Website.iws" />
@@ -58,8 +47,8 @@
       <file leaf-file-name="grPortfolioEntry.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5742726">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.22970903">
+              <caret line="11" column="144" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
               <folding />
             </state>
           </provider>
@@ -88,7 +77,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3333335">
+            <state vertical-scroll-proportion="74.041664">
               <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
               <folding>
                 <marker date="1436924166000" expanded="true" signature="959:1020" placeholder="..." />
@@ -100,8 +89,8 @@
       <file leaf-file-name="_portfolio.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/pages/_portfolio.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,6 +141,8 @@
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grResumeEntry.js" />
+        <option value="$PROJECT_DIR$/app/styles/pages/_portfolio.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.html" />
       </list>
     </option>
   </component>
@@ -670,7 +661,7 @@
       <workItem from="1436532683338" duration="93000" />
       <workItem from="1436657372072" duration="6009000" />
       <workItem from="1436743916677" duration="455000" />
-      <workItem from="1436916602108" duration="2991000" />
+      <workItem from="1436916602108" duration="3233000" />
     </task>
     <task id="LOCAL-00001" summary="Add sass compile functionality to gruntfile.">
       <created>1435115867241</created>
@@ -726,11 +717,17 @@
       <option name="project" value="LOCAL" />
       <updated>1436924027289</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Change Resume to Portfolio.">
+      <created>1436924371984</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1436924371984</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43326000" />
+    <option name="totallyTimeSpent" value="43568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1433" y="542" width="1440" height="797" extended-state="0" />
@@ -784,7 +781,8 @@
     <MESSAGE value="Modify resume entries." />
     <MESSAGE value="Remove extra white space to right." />
     <MESSAGE value="Add debug border" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add debug border" />
+    <MESSAGE value="Change Resume to Portfolio." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Resume to Portfolio." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1127,6 +1125,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.125">
@@ -1137,15 +1143,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/pages/_portfolio.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
+        <state vertical-scroll-proportion="74.041664">
           <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
           <folding>
             <marker date="1436924166000" expanded="true" signature="959:1020" placeholder="..." />
@@ -1153,18 +1159,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5742726">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.22970903">
+          <caret line="11" column="144" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
           <folding />
         </state>
       </provider>
