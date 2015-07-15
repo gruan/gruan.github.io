@@ -30,21 +30,12 @@
       scope.grade = scope.info.grade;
       scope.description = scope.info.description;
 
-      scope.sectionTitleDisplayed = isSectionTitleDisplayed();
-      scope.gradeDisplayed = isGradeDisplayed();
-      scope.descriptionDisplayed = isDescriptionDisplayed();
+      scope.sectionTitleDisplayed = !!scope.sectionTitle;
+      scope.gradeDisplayed = !!scope.grade ;
+      scope.descriptionDisplayed = !!scope.description;
 
-      function isDescriptionDisplayed() {
-        return !!scope.description;
-      }
-
-      function isGradeDisplayed() {
-        return !!scope.grade;
-      }
-
-      function isSectionTitleDisplayed() {
-        return !!scope.sectionTitle;
-      }
+      scope.isSmallMargin = scope.gradeDisplayed && !scope.descriptionDisplayed;
+      scope.isMediumMargin = !scope.gradeDisplayed || scope.descriptionDisplayed;
     }
   }
 })();

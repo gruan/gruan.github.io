@@ -117,6 +117,6 @@
           'sequence to the mutated areas.'
         }
       ]
-    }
+    };
   }
 })();
