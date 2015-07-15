@@ -5,10 +5,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/directives/grResumeEntry/grResumeEntry.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/scripts.c7f21c34.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.987cb194.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.html" afterPath="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.js" afterPath="$PROJECT_DIR$/app/scripts/directives/grPortfolioEntry/grPortfolioEntry.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/portfolio.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/portfolio.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Website.iws" />
@@ -657,7 +654,7 @@
       <workItem from="1436532683338" duration="93000" />
       <workItem from="1436657372072" duration="6009000" />
       <workItem from="1436743916677" duration="455000" />
-      <workItem from="1436916602108" duration="8710000" />
+      <workItem from="1436916602108" duration="8734000" />
     </task>
     <task id="LOCAL-00001" summary="Add sass compile functionality to gruntfile.">
       <created>1435115867241</created>
@@ -743,11 +740,17 @@
       <option name="project" value="LOCAL" />
       <updated>1436928487851</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refactor portfolio directive.&#10;">
+      <created>1436930189979</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1436930189979</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49045000" />
+    <option name="totallyTimeSpent" value="49069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1433" y="542" width="1440" height="797" extended-state="0" />
@@ -806,7 +809,8 @@
     <MESSAGE value="Refactor css for dividers." />
     <MESSAGE value="Refactor css for base." />
     <MESSAGE value="Refactor code to put data in controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor code to put data in controller." />
+    <MESSAGE value="Refactor portfolio directive.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor portfolio directive.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
