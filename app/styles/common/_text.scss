@@ -3,24 +3,27 @@
 // ===============
 
 // Colors
+h2.title-dark,
+h2.title-gray,
+h2.title-normal,
+h2.title-light {
+  font-size: 5.6em;
+}
+
 h2.title-dark {
   color: $c-dark;
-  font-size: 3em;
 }
 
 h2.title-gray {
   color: $c-gray;
-  font-size: 3em;
 }
 
 h2.title-normal {
   color: $c-light;
-  font-size: 3em;
 }
 
 h2.title-light {
   color: $c-lightest;
-  font-size: 3em;
 }
 
 .text-light {
@@ -39,24 +42,27 @@ h2.title-light {
   color: $c-dark;
 }
 
+.icon-light,
+.icon-gray,
+.icon-normal,
+.icon-dark {
+  font-size: 2em;
+}
+
 .icon-light {
   color: $c-lightest;
-  font-size: 2em;
 }
 
 .icon-gray {
   color: $c-gray;
-  font-size: 2em;
 }
 
 .icon-normal {
   color: $c-light;
-  font-size: 2em;
 }
 
 .icon-dark {
   color: $c-dark;
-  font-size: 2em;
 }
 
 // Style

@@ -3,6 +3,15 @@
 // ===============
 
 // Global Defaults
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 62.5%;
+}
+
 html, body {
   border: 0;
   box-sizing: border-box;
@@ -15,11 +24,11 @@ html, body {
 
 p {
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 2em;
 }
 
 p.small {
-  font-size: 16px;
+  font-size: 1.6em;
 }
 
 // Headlines
