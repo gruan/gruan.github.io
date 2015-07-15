@@ -5,8 +5,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/directives/grResumeEntry/grResumeEntry.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/scripts.c7f21c34.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.987cb194.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/common/_dividers.scss" afterPath="$PROJECT_DIR$/app/styles/common/_dividers.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/basic/_base.scss" afterPath="$PROJECT_DIR$/app/styles/basic/_base.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -54,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/basic/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.20673813">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -96,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_dividers.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_dividers.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/common/_dividers.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36906585">
+            <state vertical-scroll-proportion="-10.041667">
               <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
               <folding />
             </state>
@@ -145,7 +144,6 @@
         <option value="$PROJECT_DIR$/app/styles/basic/_fonts.scss" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/grResumeEntry/grResumeEntry.js" />
-        <option value="$PROJECT_DIR$/app/styles/basic/_base.scss" />
         <option value="$PROJECT_DIR$/app/scripts/directives/grResumeEntry/grResumeEntry.html" />
         <option value="$PROJECT_DIR$/app/styles/pages/_resume.scss" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
@@ -154,6 +152,7 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/pages/_portfolio.scss" />
         <option value="$PROJECT_DIR$/app/styles/common/_dividers.scss" />
+        <option value="$PROJECT_DIR$/app/styles/basic/_base.scss" />
       </list>
     </option>
   </component>
@@ -672,7 +671,7 @@
       <workItem from="1436532683338" duration="93000" />
       <workItem from="1436657372072" duration="6009000" />
       <workItem from="1436743916677" duration="455000" />
-      <workItem from="1436916602108" duration="4814000" />
+      <workItem from="1436916602108" duration="5032000" />
     </task>
     <task id="LOCAL-00001" summary="Add sass compile functionality to gruntfile.">
       <created>1435115867241</created>
@@ -740,11 +739,17 @@
       <option name="project" value="LOCAL" />
       <updated>1436924612855</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactor css for dividers.">
+      <created>1436926265009</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1436926265009</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45149000" />
+    <option name="totallyTimeSpent" value="45367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1433" y="542" width="1440" height="797" extended-state="0" />
@@ -1152,14 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/pages/_portfolio.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="37.791668">
@@ -1170,18 +1167,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/basic/_base.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/common/_dividers.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        <state vertical-scroll-proportion="-10.041667">
+          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/common/_dividers.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/pages/_portfolio.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36906585">
-          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/basic/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20673813">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
