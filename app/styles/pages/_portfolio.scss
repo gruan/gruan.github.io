@@ -7,4 +7,18 @@
   gr-portfolio-entry:last-child div {
     margin-bottom: 0;
   }
+
+  ol,
+  ul {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+  }
+
+  li {
+    font-size: 1.6em;
+  }
+
+  li:nth-child(odd) {
+    color: $c-dark;
+  }
 }

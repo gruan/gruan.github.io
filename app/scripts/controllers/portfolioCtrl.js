@@ -13,7 +13,7 @@
 
   function PortfolioCtrl($scope) {
     $scope.data = {
-      education: [
+      educationArray: [
         {
           sectionTitle: 'Education',
           accomplishment: 'Bachelor of Science in Computer Science',
@@ -38,7 +38,34 @@
           grade: 'GPA: 4.0'
         }
       ],
-      experience: [
+      skillsArray: [
+        {
+          sectionTitle: 'Skills',
+          skills: [
+            {
+              title: 'Languages',
+              list: 'Javascript, HTML5, CSS, C++, Java, Python, Scheme'
+            },
+            {
+              title: 'Frameworks',
+              list: 'Angular, Bootstrap'
+            },
+            {
+              title: 'Preprocessors and Task Runners',
+              list: 'Sass, GruntJS'
+            },
+            {
+              title: 'Testing',
+              list: 'Jasmine, Frisby'
+            },
+            {
+              title: 'Lingual Languages',
+              list: 'English, French, Chinese'
+            }
+          ]
+        }
+      ],
+      experienceArray: [
         {
           sectionTitle: 'Experience',
           accomplishment: 'Software Web Developer Intern',
@@ -53,7 +80,7 @@
           'HTML5, SCSS, Javascript, Angular, Bootstrap, Karma, Frisby, and Grunt.'
         }
       ],
-      projects: [
+      projectsArray: [
         {
           sectionTitle: 'Projects',
           accomplishment: 'Live Trip - 3rd Place Overall',
@@ -91,7 +118,7 @@
           'Fractl was built with C++, OpenGL, SFML, and Leap Motion API. '
         }
       ],
-      research: [
+      researchArray: [
         {
           sectionTitle: 'Research',
           accomplishment: 'Chemistry Research Assistant',

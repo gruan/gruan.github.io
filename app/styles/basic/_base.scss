@@ -45,6 +45,13 @@ h6 {
   text-transform: uppercase;
 }
 
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
 // Bootstrap Modifications
 section .container {
   margin: 0;

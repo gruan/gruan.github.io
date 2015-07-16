@@ -6,6 +6,16 @@
 
   /**
    * Directive for rendering a single entry of the Resume. Currently used in index.html
+   *
+   * info has the following possible properties:
+   * - sectionTitle
+   * - accomplishment
+   * - date
+   * - location
+   * - cityState
+   * - grade
+   * - description
+   * - skills
    */
 
   function portfolioEntry() {
@@ -22,20 +32,17 @@
     return directive;
 
     function link(scope) {
-      scope.sectionTitle = scope.info.sectionTitle;
-      scope.accomplishment = scope.info.accomplishment;
-      scope.date = scope.info.date;
-      scope.location = scope.info.location;
-      scope.cityState = scope.info.cityState;
-      scope.grade = scope.info.grade;
-      scope.description = scope.info.description;
+      scope.sectionTitleDisplayed = !!scope.info.sectionTitle;
+      scope.accomplishmentDisplayed = !!scope.info.accomplishment;
+      scope.dateDisplayed = !!scope.info.date;
+      scope.locationDisplayed = !!scope.info.location;
+      scope.cityStateDisplayed = !!scope.info.cityState;
+      scope.gradeDisplayed = !!scope.info.grade ;
+      scope.descriptionDisplayed = !!scope.info.description;
+      scope.skillsDisplayed = !!scope.info.skills;
 
-      scope.sectionTitleDisplayed = !!scope.sectionTitle;
-      scope.gradeDisplayed = !!scope.grade ;
-      scope.descriptionDisplayed = !!scope.description;
-
-      scope.isSmallMargin = scope.gradeDisplayed && !scope.descriptionDisplayed;
-      scope.isMediumMargin = !scope.gradeDisplayed || scope.descriptionDisplayed;
+      scope.isSmallMargin = scope.info.gradeDisplayed && !scope.info.descriptionDisplayed;
+      scope.isMediumMargin = !scope.info.gradeDisplayed || scope.info.descriptionDisplayed;
     }
   }
 })();
