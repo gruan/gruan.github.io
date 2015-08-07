@@ -63,7 +63,7 @@
 </header>
 <!-- End Navigation -->
 
-<main>
+<main ng-controller="HomeCtrl as home">
   <!-- Introduction Section -->
   <section id="introduction">
     <div class="container">
@@ -89,7 +89,6 @@
     <div class="container container-light div-light text-center text-dark">
       <div class="row">
         <h2 class="title-dark">About</h2>
-
         <div class="divider-diamond-dark"></div>
       </div>
 
@@ -141,15 +140,14 @@
   <!-- End About Section -->
 
   <!-- Portfolio Section -->
-  <section id="portfolio" ng-controller="PortfolioCtrl as portfolioCtrl">
+  <section id="portfolio">
     <div class="container container-normal div-normal text-center text-light">
       <div class="row">
         <h2 class="title-light">Portfolio</h2>
-
         <div class="divider-diamond-normal"></div>
       </div>
 
-      <section class="large-bottom-margin" ng-repeat="(key, value) in data">
+      <section class="large-bottom-margin" ng-repeat="(key, value) in portfolioData">
         <gr-portfolio-entry ng-repeat="entry in value"
                             info="entry">
         </gr-portfolio-entry>
@@ -160,7 +158,12 @@
 
   <!-- Contact Section -->
   <section id="contact">
-
+    <div class="container container-light div-light text-center text-dark">
+      <div class="row">
+        <h2 class="title-dark">Contact Me</h2>
+        <div class="divider-diamond-dark"></div>
+      </div>
+    </div>
   </section>
   <!-- End Contact Section -->
 </main>
@@ -198,7 +201,7 @@
 <!-- build:js scripts/scripts.js -->
 <script src="scripts/app.js"></script>
 
-<script src="scripts/controllers/portfolioCtrl.js"></script>
+<script src="scripts/controllers/homeCtrl.js"></script>
 
 <script src="scripts/directives/grPortfolioEntry/grPortfolioEntry.js"></script>
 <!-- endbuild -->

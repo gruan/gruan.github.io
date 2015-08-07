@@ -7,12 +7,12 @@
    * Handles the controller for the portfolio section of the application
    */
   angular.module('personalApp')
-    .controller('PortfolioCtrl', PortfolioCtrl);
+    .controller('HomeCtrl', HomeCtrl);
 
-  PortfolioCtrl.$inject = ['$scope'];
+  HomeCtrl.$inject = ['$scope'];
 
-  function PortfolioCtrl($scope) {
-    $scope.data = {
+  function HomeCtrl($scope) {
+    $scope.portfolioData = {
       educationArray: [
         {
           sectionTitle: 'Education',
